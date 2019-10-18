@@ -1,6 +1,4 @@
-export const sum = (a: number, b: number) => {
-  if ('development' === process.env.NODE_ENV) {
-    console.log('boop');
-  }
-  return a + b;
-};
+export * from './sum';
+export * from './util/logger';
+export * from './util/cool-thing';
+export * from './util/cool-thing/models'
